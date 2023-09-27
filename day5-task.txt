@@ -1,0 +1,77 @@
+QUESTION 1:
+1,JSON ITERATE USING FOR LOOP
+
+let keys=['surya','thiru','eswer','mass','vickram']
+let values=[1,2,3,4,5]
+let person={}
+for(let i=0; i<keys.length;i++)
+{
+    person[keys[i]]=values[i]
+}console.log(person)
+
+2,JSON ITERATE USING FOR IN
+
+const data={
+    name:'surya',
+    age :22,
+    sex :'male'
+}
+for(let keys in data)
+{
+    console.log(keys+":" ,data[keys])
+}
+
+3,JSON ITERATE USING FOREACH
+
+let fav=['tamil','english','javascript','sql'];
+let items=['language','language','scriptinglanguage','qurielanguage'];
+let solution={}
+fav.forEach((fav,i)=>{
+    solution[fav]=items[i]
+});
+console.log(solution);
+
+4,JSON ITERAITON USING FOR OF
+
+let cars={'ford':1,'toyota':2,'honda':3,'volkswagen':'fav'}
+let k= Object.keys(cars)
+for(let i of k)
+{
+    console.log(`${i} : ${cars[i]}`);
+}
+
+QUESTION 2:
+
+EASY RESUME DATA IN JSON FARMAT
+
+let resume={ 
+    name         :'surya',
+    DOB          : '24.02.2001',
+    gender       :'male',
+    nationality  :'INDIAN',
+    maried_status:'single',
+    languages_known:['tamil','english','sourstra'],
+    degree        :'BCA',
+    university_board:'annauniversity',
+    percentage_CGPA : '65%',
+    year_of_passing :2022,
+}
+console.log(resume);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
